@@ -1,2 +1,2 @@
-# project kuku
+project kuku
 โปรเจ็คนี้เกียวกับการขายสินค้า
