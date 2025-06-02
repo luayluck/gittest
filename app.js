@@ -1,2 +1,2 @@
 console.log("Hello")
-console.log("kuku1")
+console.log("kuku")
