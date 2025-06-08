@@ -12,6 +12,10 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
+    - name: Debug SSH secrets
+      run: |
+        echo "Host: ${{ secrets.SSH_HOST }}"
+        echo "Key Length: $(echo "${{ secrets.SSH_PRIVATE_KEY }}" | wc -l)"
 
     - name: Setup SSH key
       run: |
